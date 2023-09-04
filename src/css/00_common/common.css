@@ -105,19 +105,20 @@ input{
 
 .hidden_mobile{display: block;}
 
-/* font color */
-.lightblue{color:#96dcf0;}
-.darkblue{color:#00b7d4;}
-.darkgary{color:#212529;}
-.lightgray{color:#999999;}
+/* 로고 웹폰트 적용*/
+@font-face {
+    font-family: 'SF_IceLemon';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_IceLemon.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
 
-/* border color */
-.bordergray{border-color:#e0e0e0;}
 
 
 /* layout */
-#wrap{}
-.wrap_center{max-width:1141px;width:100%;margin:0 auto;padding:0 40px;}
+#wrap{padding:0 40px;}
+.wrap_center{max-width:1141px;width:100%;margin:0 auto;}
 .flex_wrap{display: flex; flex-wrap: wrap;}
 #wrap_main{padding:30px 0;}
 .adjust_lp16{
@@ -153,8 +154,8 @@ input{
     body {
       
     }
-    #wrap{}
-    .wrap_center{width:100% !important;padding:0 10px;}
+    #wrap{padding:0 10px;}
+    .wrap_center{width:100% !important;}
     .box{width:100% !important;}
 
     .grid_item{
