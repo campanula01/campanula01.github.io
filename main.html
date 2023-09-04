@@ -15,8 +15,13 @@
     <script type="text/javascript">
         $(function(){
             var includes1 = $('[data-include1="header"]');
+            var includes2 = $('[data-include2="footer"]');
+
             $.each(includes1, function(){
                 $(this).load('00_common/01_header.html');
+            });
+            $.each(includes2, function(){
+                $(this).load('00_common/02_footer.html');
             });
         });
     </script>
@@ -277,6 +282,7 @@
                 </div>
             </main>
         </div>
+        <div data-include2="footer" id="footer"></div><!--footer 인클루드-->
     </div>
 </body>
 </html>

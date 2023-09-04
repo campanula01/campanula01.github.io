@@ -18,5 +18,15 @@
   #logo_footer a{display: flex; flex-direction: row;line-height:40px;}
   #logo_footer img{width:auto; height:40px;display: flex;}
   #logo_footer #logo_txt{font-size:25px;font-family: 'SF_IceLemon';display: flex; line-height:45px;padding-left:2px;color:#999999;}
+  #list_footer{margin-top:10px;}
   #list_footer ul{display: flex; flex-direction: row;} 
-  #list_footer li{}
+  #list_footer li{margin-right:10px;}
+  #list_footer li a{/*color:#999999;*/}
+
+  #info_footer{float:left;margin-top:10px;width:100%;}
+  /* #info_footer:after{display: inline-block;clear:both;content:"";} */
+  #info_footer ul{width:100%;} 
+  #info_footer ul:after{display: block;clear:both;content:"";}
+  #info_footer li{float:left;word-break: keep-all;word-wrap: break-word;padding-right:5px;color:#999999;font-size:11px;} 
+  #info_footer li~li:before{content:"|";padding-right:5px;}
+  #notice_footer{float:left;margin-top:20px;color:#999999;font-size:11px;text-align: left;}
