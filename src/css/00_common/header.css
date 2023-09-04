@@ -113,6 +113,7 @@ cursor: pointer;
   border-radius: 4px;
   z-index: 1200;
   padding:15px 10px;
+  display:none;
   
 }
 #wrap_mypage a{
