@@ -105,6 +105,16 @@ input{
 
 .hidden_mobile{display: block;}
 
+/* 로고 웹폰트 적용*/
+@font-face {
+    font-family: 'SF_IceLemon';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_IceLemon.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+
+
 
 /* layout */
 #wrap{padding:0 40px;}

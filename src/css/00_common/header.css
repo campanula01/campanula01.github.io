@@ -1,13 +1,5 @@
 @import "common.css";
 
-/* 로고 웹폰트 적용*/
-@font-face {
-  font-family: 'SF_IceLemon';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_IceLemon.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 #wrap_header {
   width: 100%;
   height: 40px;
@@ -24,7 +16,7 @@
  }
 
 #logo {height:40px;line-height:40px;margin-right:20px;}
-#logo a{display: flex; flex-direction: row;justify-content: center;line-height:40px;}
+#logo a{display: flex; flex-direction: row;line-height:40px;}
 #logo img{width:auto; height:40px;display: flex;}
 #logo_txt{font-size:25px;font-family: 'SF_IceLemon';display: flex; line-height:45px;padding-left:2px;}
 
@@ -44,8 +36,7 @@ cursor: pointer;
 
 #wrap_header_right{
   position: absolute;
-  right:40px;
-  display: flex; 
+  right:0;display: flex; 
   flex-direction:row
 }
 
@@ -137,7 +128,7 @@ cursor: pointer;
   justify-content: flex-start;
   font-size: 14px;
   line-height: 22px;
-  /*color: rgb(13, 13, 13);*/
+  color: rgb(13, 13, 13);
   cursor: pointer;
   transition: all 0.3s ease-in-out 0s;
 }
